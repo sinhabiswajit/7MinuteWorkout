@@ -11,6 +11,7 @@
         android:id="@+id/iv_image"
         android:layout_width="match_parent"
         android:layout_height="220dp"
+        android:src="@drawable/img_main_page"
         android:contentDescription="@string/image"
         app:layout_constraintBottom_toTopOf="@id/fl_start"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +24,8 @@
         android:layout_height="150dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iv_image">
+        app:layout_constraintTop_toBottomOf="@+id/iv_image"
+        android:background="@drawable/item_color_accent_border_ripple_background">
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,9 +35,6 @@
             android:textSize="@dimen/default_button_text_size"
             android:textStyle="bold"
             android:textColor="@color/color_primary"/>
-
-
-
 
     </FrameLayout>
 
