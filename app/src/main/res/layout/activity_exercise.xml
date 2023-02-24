@@ -84,7 +84,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/toolbar_exercise">
         <ProgressBar
-            android:id="@+id/progressbarExercise"
+            android:id="@+id/progress_bar_exercise"
             android:layout_width="100dp"
             android:layout_height="100dp"
             style="?android:attr/progressBarStyleHorizontal"
