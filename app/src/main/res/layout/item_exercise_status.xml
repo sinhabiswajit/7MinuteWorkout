@@ -6,7 +6,7 @@
     android:layout_height="25dp"
     android:layout_width="25dp"
     android:layout_margin="1dp"
-    android:background="@drawable/item_cicular_color_grey_background"
+    android:background="@drawable/item_circular_color_grey_background"
     android:gravity="center"
     android:padding="3dp"
     android:textColor="#212121"
